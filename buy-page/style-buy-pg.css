@@ -1,0 +1,272 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  background-color: antiquewhite;
+}
+
+a {
+  padding-left: 10px;
+  text-decoration: none;
+  color: rgb(12, 10, 10);
+}
+
+a:hover {
+  text-shadow: 0px 0px 1px rgba(128, 0, 128, 0.712);
+}
+
+nav {
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  flex-wrap: nowrap;
+  background-color: #d3d8dec9;
+  display: flex;
+  text-align: justify;
+  justify-content: space-around;
+}
+
+a > img > nav {
+  width: 60px;
+}
+
+.logos-nav {
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 200px;
+  border: 0px solid antiquewhite;
+}
+
+.logos-nav:hover {
+  width: 21px;
+}
+
+img:hover > nav {
+  cursor: pointer;
+  box-shadow: 0 0 5px antiquewhite;
+  border-radius: 16px;
+}
+
+.home {
+  height: 100vh;
+}
+
+button {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(121, 121, 121);
+  background-color: aliceblue;
+  border: transparent;
+  border-radius: 5px;
+}
+
+button:hover {
+  text-decoration: none;
+  border: 1px solid antiquewhite;
+  cursor: pointer;
+  background-color: rgb(253, 254, 255);
+}
+
+section {
+  text-align: center;
+}
+
+.imagem-empresa {
+  max-width: 50vw;
+}
+
+.div-sobre {
+  padding: 2px;
+  font-size: 18px;
+  box-shadow: 0px 0px 15px rgb(253, 157, 157);
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-left: 25vw;
+  max-width: 50vw;
+  text-align: justify;
+  justify-content: right;
+}
+
+.padd {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: -3px;
+}
+
+.padd:hover {
+  cursor: pointer;
+}
+
+div {
+  text-align: center;
+}
+
+.lexa {
+  font-size: 18px;
+  width: 300px;
+  border: 2px solid antiquewhite;
+  border-radius: 10px;
+}
+
+.text-small {
+  padding: 0;
+  margin: 0;
+  color: darkgrey;
+}
+
+.home-button {
+  font-size: 16px;
+}
+
+.cards-home {
+  border: 0.5px solid antiquewhite;
+  background-color: rgba(240, 248, 255, 0.205);
+  margin: 10px;
+  border-radius: 5px;
+  width: 250px;
+  height: 400px;
+}
+
+.cards-home:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgb(255, 226, 189);
+  border: 1px solid antiquewhite;
+  background-color: aliceblue;
+}
+
+.cards-home-fe {
+  border: 0.5px solid antiquewhite;
+  background-color: rgba(240, 248, 255, 0.205);
+  margin: 10px;
+  border-radius: 5px;
+  width: 250px;
+  height: 400px;
+}
+
+.cards-home-fe:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px antiquewhite;
+  border: 1px solid antiquewhite;
+  background-color: aliceblue;
+}
+
+.cards-home-2 {
+  margin: 10px;
+  border-radius: 5px;
+  width: 250px;
+  height: 200px;
+  border: 1px solid antiquewhite;
+  background-color: rgba(240, 248, 255, 0.205);
+}
+
+.cards-home-2:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgb(255, 226, 189);
+  border: 1px solid antiquewhite;
+  background-color: aliceblue;
+}
+
+.faixa-cards {
+  margin-top: 3px;
+  border-radius: 4px;
+  background-color: rgb(144, 203, 255);
+  display: flex;
+  justify-content: center;
+}
+
+.faixa-cards-masc {
+  margin-top: 3px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+.imagens-cards {
+  width: 250px;
+  height: 320px;
+  border-bottom: 1px solid antiquewhite;
+  border-radius: 4px;
+}
+
+.imagens-cards-2 {
+  width: 250px;
+  height: 151px;
+  border-bottom: 1px solid antiquewhite;
+
+  border-radius: 4px;
+}
+
+i {
+  color: red;
+}
+
+.butao {
+  font-size: 16px;
+}
+
+.butao > a {
+  color: rgb(0, 0, 0);
+}
+
+.banner {
+  box-shadow: 0px 0px 5px rgb(253, 157, 157);
+  border-radius: 10px;
+  width: 10;
+  height: 300px;
+}
+
+.logos {
+  border: 0.5px solid rgba(255, 255, 255, 0);
+  border-radius: 50px;
+  background-color: transparent;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100px;
+  padding: 10px;
+}
+
+.logos1 {
+  border: 0.5px solid rgba(255, 255, 255, 0);
+  border-radius: 60px;
+  background-color: transparent;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100px;
+  padding: 10px;
+}
+
+.logos:hover {
+  background-color: white;
+  cursor: pointer;
+  width: 101px;
+  box-shadow: 0px 0px 5px rgb(253, 157, 157);
+}
+
+.logos1:hover {
+  cursor: pointer;
+  width: 102px;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgb(253, 157, 157);
+}
+
+.contatos {
+  height: 100vh;
+}
+
+i {
+  text-decoration: line-through;
+}
+
+b > i {
+  text-decoration: none;
+}
+
+.section {
+  height: 100%;
+}
