@@ -3,7 +3,7 @@
 }
 
 html {
-  background-color: antiquewhite;
+  background-color: rgb(0, 0, 0);
 }
 
 a {
@@ -269,4 +269,36 @@ b > i {
 
 .section {
   height: 100%;
+}
+
+.faixa-cards-small {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgs-small {
+  filter: opacity(80%);
+  -webkit-filter: opacity(80%);
+  padding: 7px;
+  padding-left: 0px;
+  padding-right: 2px;
+  padding-top: 0px;
+  display: flex;
+  width: 100px;
+  height: 120px;
+}
+
+.imgs-small:hover {
+  filter: opacity(100%);
+  -webkit-filter: opacity(100%);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.img-principal {
+  width: 420px;
+  height: 500px;
+}
+
+.img-principal:hover {
 }
